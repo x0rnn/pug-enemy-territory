@@ -6,6 +6,110 @@ game_manager
 {
 	spawn
 	{
+		// Axis spawns
+		create
+		{
+			classname "team_CTF_redspawn"
+			targetname "roadbunkerspawns"
+			scriptname "roadbunkerspawns"
+			origin "-888 1560 1324" // Bunker left side
+			spawnflags "3"
+			angle "90"
+			id "1" // setspawnpt 3 1
+		}
+		create
+		{
+			classname "team_CTF_redspawn"
+			targetname "axishutspawns"
+			scriptname "axishutspawns"
+			origin "-3700 -1224 1432" // west hut alt
+			spawnflags "3"
+			angle "250"
+			id "1" // setspawnpt 4 1
+		}
+		create
+		{
+			classname "team_CTF_redspawn"
+			targetname "axiswarehousespawns"
+			scriptname "axiswarehousespawns"
+			origin "-1204 -4022 1260" // warehouse front
+			spawnflags "3"
+			angle "90"
+			id "1" // setspawnpt 5 1
+		}
+		create
+		{
+			classname "team_CTF_redspawn"
+			targetname "axiswarehousespawns"
+			scriptname "axiswarehousespawns"
+			origin "-1118 -4196 1308" // warehouse east
+			spawnflags "3"
+			angle "360"
+			id "2" // setspawnpt 5 2
+		}
+		create
+		{
+			classname "team_CTF_redspawn"
+			targetname "axiswarehousespawns"
+			scriptname "axiswarehousespawns"
+			origin "-1662 -3984 1260" // warehouse stairs
+			spawnflags "3"
+			angle "90"
+			id "3" // setspawnpt 5 3
+		}
+		create
+		{
+			classname "team_CTF_redspawn"
+			targetname "axiswarehousespawns"
+			scriptname "axiswarehousespawns"
+			origin "-1873 -4210 1258" // warehouse west
+			spawnflags "3"
+			angle "180"
+			id "4" // setspawnpt 5 4
+		}
+		create
+		{
+			classname "team_CTF_redspawn"
+			targetname "axiswarehousespawns"
+			scriptname "axiswarehousespawns"
+			origin "-1751 -4264 1258" // warehouse back
+			spawnflags "3"
+			angle "90"
+			id "5" // setspawnpt 5 5
+		}
+
+		// Allied spawns
+		create
+		{
+			classname "team_CTF_bluespawn"
+			targetname "villaspawns"
+			scriptname "villaspawns"
+			origin "2412 3224 1524" // villa window
+			spawnflags "3"
+			angle "360"
+			id "1" // setspawnpt 2 1
+		}
+		create
+		{
+			classname "team_CTF_bluespawn"
+			targetname "alliedcpspawns"
+			scriptname "alliedcpspawns"
+			origin "2976 -1264 1528" // CP front
+			spawnflags "3"
+			angle "225"
+			id "1" // setspawnpt 1 1
+		}
+		create
+		{
+			classname "team_CTF_bluespawn"
+			targetname "roadbunkerspawns"
+			scriptname "roadbunkerspawns"
+			origin "-892 1562 1328" // bunker left
+			spawnflags "1"
+			angle "90"
+			id "1" // setspawnpt 3 1
+		}
+
 		// Game rules
 		wm_axis_respawntime	30
 		wm_allied_respawntime	20
