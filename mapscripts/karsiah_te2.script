@@ -2,6 +2,18 @@ game_manager
 {
 	spawn
 	{
+		// Axis spawns
+		create
+		{
+			classname "team_CTF_redspawn"
+			targetname "middlespawns"
+			scriptname "middlespawns"
+			origin "1376 -1576 304" // Axis flag left
+			spawnflags "3"
+			angle "180"
+			id "1" // setspawnpt 3 1
+		}
+
 		create
 		{			
 			scriptname "doornwall"

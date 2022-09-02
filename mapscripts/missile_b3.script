@@ -5,6 +5,28 @@ game_manager
 {
 	spawn
 	{
+		// Axis spawns
+		create
+		{
+			classname "team_CTF_redspawn"
+			targetname "axis_rocketspawn"
+			scriptname "axis_rocketspawn"
+			origin "8592 -792 -104" // Axis last stage right
+			spawnflags "3"
+			angle "270"
+			id "1" // setspawnpt 5 1
+		}
+		create
+		{
+			classname "team_CTF_redspawn"
+			targetname "axis_rocketspawn"
+			scriptname "axis_rocketspawn"
+			origin "9224 -1088 -104" // Axis last stage left
+			spawnflags "3"
+			angle "180"
+			id "2" // setspawnpt 5 2
+		}
+
         //used to track allies spawns
         globalaccum 1 bitreset 1
         globalaccum 1 bitreset 2

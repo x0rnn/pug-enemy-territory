@@ -2,6 +2,69 @@ game_manager
 {
 	spawn
 	{
+		// Axis spawns
+		create
+		{
+			classname "team_CTF_redspawn"
+			targetname "axis1spawn_spawns"
+			scriptname "axis1spawn_spawns"
+			origin "-3427 1378 136" // Flag Axis front
+			spawnflags "3"
+			angle "0"
+			id "1" // setspawnpt 2 1
+		}
+		create
+		{
+			classname "team_CTF_redspawn"
+			targetname "axis1spawn_spawns"
+			scriptname "axis1spawn_spawns"
+			origin "-3026 1937 136" // Flag Axis front alt
+			spawnflags "3"
+			angle "-90"
+			id "2" // setspawnpt 2 2
+		}
+
+		// Allied spawns
+		create
+		{
+			classname "team_CTF_bluespawn"
+			targetname "allied1spawn_spawns"
+			scriptname "allied1spawn_spawns"
+			origin "-2160 -2164 104" // Allied start front
+			spawnflags "3"
+			id "1" // setspawnpt 1 1
+		}
+		create
+		{
+			classname "team_CTF_bluespawn"
+			targetname "allied3spawn_spawns"
+			scriptname "allied3spawn_spawns"
+			origin "-2431 1270 108" // Allied flag front
+			spawnflags "1"
+			angle "0"
+			id "1" // setspawnpt 3 1
+		}
+		create
+		{
+			classname "team_CTF_bluespawn"
+			targetname "allied2spawn_spawns"
+			scriptname "allied2spawn_spawns"
+			origin "2050 2346 288" // CP front
+			spawnflags "1"
+			angle "180"
+			id "1" // setspawnpt 5 1
+		}
+		create
+		{
+			classname "team_CTF_bluespawn"
+			targetname "allied2spawn_spawns"
+			scriptname "allied2spawn_spawns"
+			origin "1984 2206 288" // CP alt
+			spawnflags "1"
+			angle "130"
+			id "2" // setspawnpt 5 2
+		}
+
 		// Set scenario information
 		wm_axis_respawntime 30
 		wm_allied_respawntime 20
