@@ -179,13 +179,18 @@ setspawnpt 3 // flag
 Axis
 setspawnpt 1 // bunker
 setspawnpt 2 // bunker (fops bunker > west hut)
-setspawnpt 4 // west hut
-setspawnpt 5 // warehouse
+setspawnpt 3 1 // bunker left
+setspawnpt 4 1 // west hut back
+setspawnpt 5 1 // warehouse front
+setspawnpt 5 2 // warehouse east
+setspawnpt 5 3 // warehouse stairs
+setspawnpt 5 4 // warehouse west
+setspawnpt 5 5 // warehouse back
 Allies
-setspawnpt 1 // villa alt > CP
+setspawnpt 1 1 // villa window > CP front
 setspawnpt 2 // villa
-setspawnpt 3 // bunker
-setspawnpt 4 // villa alt > bunker alt
+setspawnpt 3 1 // bunker left
+setspawnpt 4 // villa alt
 
 ### autoexec_bremen_b3
 Axis
