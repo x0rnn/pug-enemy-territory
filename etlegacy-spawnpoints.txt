@@ -16,7 +16,7 @@ setspawnpt 3 1 // tank right
 ### autoexec_etl_frostbite
 Axis
 setspawnpt 1 // garage right
-setspawnpt 2 // barracks
+setspawnpt 2 0 // barracks
 setspawnpt 3 // garage left
 setspawnpt 2 3  // bunks fast
 setspawnpt 2 27 // bunks slow
@@ -88,10 +88,16 @@ setspawnpt 1 // start
 setspawnpt 2 // CP
 setspawnpt 3 // flag
 
-### autoexec_et_brewdog_b4
+### autoexec_et_brewdog
 Axis
 setspawnpt 1 // default
 setspawnpt 2 // alt
+setspawnpt 2 1 // upper 1
+setspawnpt 2 2 // upper 2
+setspawnpt 2 3 // upper 3
+setspawnpt 2 4 // lower 1
+setspawnpt 2 5 // lower 2
+setspawnpt 2 6 // lower 3
 Allies
 setspawnpt 1 // flag alt
 setspawnpt 2 // flag
@@ -121,14 +127,19 @@ setspawnpt 5 // forward lockers
 
 ### autoexec_sw_goldrush_te
 Axis
-setspawnpt 1 // tank alt > rear alt
-setspawnpt 2 // tank right (engi)
-setspawnpt 3 // tank > rear alt
-setspawnpt 4 // rear
+setspawnpt 1 1 // tank front 1
+setspawnpt 1 2 // tank front 2
+setspawnpt 1 3 // tank right (engi)
+setspawnpt 4 1 // rear front 1
+setspawnpt 4 2 // rear front 2
+setspawnpt 4 3 // rear back 1
+setspawnpt 4 4 // rear back 2
 Allies
-setspawnpt 1 // tank
-setspawnpt 2 // truck exit
-setspawnpt 3 // CP
+setspawnpt 1 1 // tank front 1
+setspawnpt 1 2 // tank front 2
+setspawnpt 2 1 // truck exit right
+setspawnpt 2 2 // truck exit left
+setspawnpt 3 1 // CP front
 setspawnpt 4 // CP alt
 
 ### autoexec_braundorf_b4
@@ -158,7 +169,7 @@ setspawnpt 7 // sniper hill
 Axis
 setspawnpt 1 // rear
 setspawnpt 2 // flag right
-setspawnpt 3 // flag
+setspawnpt 3 1 // flag left
 Allies
 setspawnpt 1 // flag alt
 setspawnpt 2 // start
@@ -179,18 +190,21 @@ setspawnpt 4 // villa alt > bunker alt
 ### autoexec_bremen_b3
 Axis
 setspawnpt 1 // rear truck
-setspawnpt 2 // flag
+setspawnpt 2 1 // flag
+setspawnpt 2 2 // flag alt
 setspawnpt 5 // rear fence
 Allies
-setspawnpt 1 // start
-setspawnpt 3 // flag
-setspawnpt 5 // CP
+setspawnpt 1 1 // start
+setspawnpt 3 1 // flag
+setspawnpt 5 1 // CP front
+setspawnpt 5 2 // CP alt
 
 ### autoexec_missile_b3
 Axis
 setspawnpt 1 // second stage
 setspawnpt 2 // flag
-setspawnpt 5 // last stage
+setspawnpt 5 1 // last stage right
+setspawnpt 5 2 // last stage left
 Allies
 setspawnpt 2 // flag
 setspawnpt 3 // start
