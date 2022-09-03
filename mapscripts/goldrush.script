@@ -2,6 +2,118 @@ game_manager
 {
 	spawn
 	{
+		// Axis spawns
+		create
+		{
+			classname "team_CTF_redspawn"
+			targetname "tankdepot_axis_spawns"
+			scriptname "tankdepot_axis_spawns"
+			origin "66 3566 396" // Tank Axis front 1
+			spawnflags "3"
+			angle "270"
+			id "1" // setspawnpt 1 1
+		}
+		create
+		{
+			classname "team_CTF_redspawn"
+			targetname "tankdepot_axis_spawns"
+			scriptname "tankdepot_axis_spawns"
+			origin "114 3566 396" // Tank Axis front 2
+			spawnflags "3"
+			angle "270"
+			id "2" // setspawnpt 1 2
+		}
+		create
+		{
+			classname "team_CTF_redspawn"
+			targetname "tankdepot_axis_spawns"
+			scriptname "tankdepot_axis_spawns"
+			origin "-210 3564 396" // Tank Axis right (engi)
+			spawnflags "3"
+			angle "225"
+			id "3" // setspawnpt 1 3
+		}
+		create
+		{
+			classname "team_CTF_redspawn"
+			targetname "axisspawn"
+			scriptname "axisspawn"
+			origin "2624 -656 -432" // Rear Axis front 1
+			spawnflags "3"
+			angle "180"
+			id "1" // setspawnpt 2 1
+		}
+		create
+		{
+			classname "team_CTF_redspawn"
+			targetname "axisspawn"
+			scriptname "axisspawn"
+			origin "2552 -808 -432" // Rear Axis front 2
+			spawnflags "3"
+			angle "90"
+			id "2" // setspawnpt 2 2
+		}
+		create
+		{
+			classname "team_CTF_redspawn"
+			targetname "axisspawn"
+			scriptname "axisspawn"
+			origin "3032 -1096 -432" // Rear Axis back 1
+			spawnflags "3"
+			angle "110"
+			id "3" // setspawnpt 2 3
+		}
+		create
+		{
+			classname "team_CTF_redspawn"
+			targetname "axisspawn"
+			scriptname "axisspawn"
+			origin "2976 -1000 -432" // Rear Axis back 2
+			spawnflags "3"
+			angle "135"
+			id "4" // setspawnpt 2 4
+		}
+
+		// Allied spawns
+		create
+		{
+			classname "team_CTF_bluespawn"
+			targetname "alliedspawn"
+			scriptname "alliedspawn"
+			origin "-3528 -349 -80" // Allied Truck exit right
+			spawnflags "3"
+			id "1" // setspawnpt 3 1
+		}
+		create
+		{
+			classname "team_CTF_bluespawn"
+			targetname "alliedspawn"
+			scriptname "alliedspawn"
+			origin "-3477 -51 -80" // Allied Truck exit left
+			spawnflags "3"
+			id "2" // setspawnpt 3 2
+		}
+		create
+		{
+			classname "team_CTF_bluespawn"
+			targetname "tankdepot_allied_spawns"
+			scriptname "tankdepot_allied_spawns"
+			origin "66 3566 396" // Tank Allies front 1
+			spawnflags "1"
+			angle "270"
+			id "1" // setspawnpt 1 1
+		}
+		create
+		{
+			classname "team_CTF_bluespawn"
+			targetname "tankdepot_allied_spawns"
+			scriptname "tankdepot_allied_spawns"
+			origin "114 3566 396" // Tank Allies front 2
+			spawnflags "1"
+			angle "270"
+			id "2" // setspawnpt 1 2
+		}
+
 		// bug fixes
 		create
 		{
