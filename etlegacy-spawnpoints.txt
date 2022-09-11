@@ -199,7 +199,7 @@ setspawnpt 2 1 // flag
 setspawnpt 2 2 // flag alt
 setspawnpt 5 // rear fence
 Allies
-setspawnpt 1 1 // start
+setspawnpt 5 // start
 setspawnpt 3 1 // flag
 setspawnpt 5 1 // CP front
 setspawnpt 5 2 // CP alt
