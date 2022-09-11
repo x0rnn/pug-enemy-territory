@@ -215,3 +215,19 @@ setspawnpt 2 // flag
 setspawnpt 3 // start
 setspawnpt 4 // CP
 setspawnpt 6 // last stage
+
+### autoexec_sw_oasis_b3
+Axis
+setspawnpt 3 // old city
+setspawnpt 3 1 // old city health&ammo
+setspawnpt 1 1 // last stage alt
+setspawnpt 1 2 // last stage main
+setspawnpt 1 3 // last stage window
+setspawnpt 4 // last stage upper
+Allies
+setspawnpt 5 1 // start
+setspawnpt 5 2 // tunnel spawn
+setspawnpt 5 3 // tunnel spawn alt
+setspawnpt 3 // old city
+setspawnpt 3 1 // old city health&ammo
+setspawnpt 2 // upper way flag
