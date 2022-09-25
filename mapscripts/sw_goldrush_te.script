@@ -99,7 +99,7 @@ game_manager
 			classname "team_CTF_bluespawn"
 			targetname "tankdepot_allied_spawns"
 			scriptname "tankdepot_allied_spawns"
-			origin "112 3628 396" // Tank Allies front 1
+			origin "58 3628 396" // Tank Allies front 1
 			spawnflags "1"
 			angle "270"
 			id "1" // setspawnpt 1 1
@@ -109,7 +109,7 @@ game_manager
 			classname "team_CTF_bluespawn"
 			targetname "tankdepot_allied_spawns"
 			scriptname "tankdepot_allied_spawns"
-			origin "58 3628 396" // Tank Allies front 2
+			origin "112 3628 396" // Tank Allies front 2
 			spawnflags "1"
 			angle "270"
 			id "2" // setspawnpt 1 2
