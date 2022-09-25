@@ -28,7 +28,7 @@ game_manager
   		 	scriptName "tunnel_spawn"
    			classname "team_CTF_bluespawn"
   			targetname "tunnel_spawn"
-   			origin "2624 1952 -538"
+   			origin "2688 1952 -538"
 			angle "90"
    			spawnflags "1"
 			id "3" // setspawnpt 5 3
